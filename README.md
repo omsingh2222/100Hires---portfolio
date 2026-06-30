@@ -1,55 +1,79 @@
 100Hires Portfolio Project
 
-Tools Installed
+Project 2: LinkedIn Organic Content Strategy for B2B SaaS — Research
 
- 1. Cursor IDE
-- Downloaded and installed Cursor IDE from https://cursor.com/
-- Successfully set up the development environment on Windows
+Why I chose this topic
 
- 2. Claude Code
-- Installed Claude Code v2.1.195 via PowerShell terminal
-- Ran the installation command and verified successful setup
-- Note: Full login requires Claude Pro/Max subscription. 
-  Installed and verified the tool is functional on the machine.
+I chose LinkedIn organic content strategy for B2B SaaS because it sits directly at the intersection of my marketing background and a channel I can research deeply using primarily manual collection — keeping the technical complexity (APIs) focused on YouTube transcript extraction, while still requiring real research judgment on source quality.
 
- 3. GitHub
-- Created a new GitHub account
-- Set up this public repository: 100Hires---portfolio
+What I collected and why
 
- Steps Completed
+I identified 10 practitioners — not generic "LinkedIn guru" accounts — who are actively building, scaling, or executing LinkedIn content strategy for B2B SaaS companies right now. My selection criteria:
 
-1. Installed Cursor IDE on Windows machine
-2. Opened terminal inside Cursor (PowerShell)
-3. Installed Claude Code successfully (v2.1.195)
-4. Fixed PATH issue by manually adding Claude Code 
-   to environment variables
-5. Launched Claude Code and verified it runs correctly
-6. Created GitHub account and this public repository
-7. Created and updated this README.md file
 
- Issues I Ran Into & How I Solved Them
 
- Issue 1: Claude Code not recognized in terminal
-After installation, typing `claude` gave a "not recognized" error.
-Solution: Manually added the installation path to PATH using:
-`$env:PATH += ";C:\Users\MONIKA SINGH\.local\bin"`
-This fixed the issue and Claude Code launched successfully.
 
- Issue 2: Claude Code requires Pro/Max subscription
-When trying to log in, the browser showed that a paid 
-subscription is required.
-Solution: Documented the issue transparently. 
-The tool is installed and functional — login requires 
-subscription upgrade. Proceeded with completing all 
-other steps independently.
 
-Issue 3: New to GitHub
-Had never used GitHub before this task.
-Solution: Watched a quick tutorial, created an account, 
-and successfully set up this public repository within the deadline.
+Active posting within the last 3 months
 
-## Key Takeaway
 
-This task taught me how to independently set up developer 
-tools, troubleshoot errors, and document my process clearly — 
-all skills I'm committed to building as I grow in my career.
+
+Demonstrable real-world results tied to their content (revenue, ARR growth, follower growth backed by a specific strategy)
+
+
+
+A distinct point of view rather than recycled generic advice
+
+
+
+A mix of founder-led and marketer-led perspectives, since these two groups approach LinkedIn very differently
+
+Full details and reasoning for each expert are in [research/sources.md](./research/sources.md).
+
+Repository structure
+
+research/
+  sources.md              <- all 10 experts with links and annotations
+  linkedin-posts/          <- posts collected per author
+  youtube-transcripts/     <- transcripts per video, where applicable
+  other/                   <- supporting podcast/article materials
+
+
+
+Tools used
+
+
+
+
+
+Cursor IDE with Claude Code extension for setting up the repo structure and writing collection scripts
+
+
+
+youtube-transcript-api (Python, free) for pulling YouTube transcripts where applicable
+
+
+
+Manual collection for LinkedIn posts, since LinkedIn's terms of service restrict automated scraping — I prioritized data accuracy and compliance over automation here
+
+
+
+Issues I ran into and how I solved them
+
+Issue: Several experts only had first names in my initial research sources (industry roundup articles), not full LinkedIn handles.
+Solution: Flagged these clearly in sources.md as placeholders to be completed once I manually search and verify their exact LinkedIn profiles — this ensures I'm linking to verified, active accounts rather than guessing.
+
+Issue: LinkedIn doesn't have a public API for post scraping.
+Solution: Used manual collection for LinkedIn posts instead of trying to scrape, since scraping would violate LinkedIn's terms of service. Reserved API/scripting use for YouTube transcripts where a legitimate free API exists.
+
+Status
+
+This is an in-progress research repository. Commits are being made incrementally as sources are verified and content is collected, rather than as one final batch commit.
+
+
+
+
+
+Project 1: Tool Setup (previous step)
+
+See earlier commits for the initial Cursor IDE / Claude Code installation documentation.
