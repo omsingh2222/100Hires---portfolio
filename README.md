@@ -42,7 +42,7 @@ research/
 
 Tools used
 
-
+Web research and Claude-assisted analysis to identify, verify, and summarize relevant YouTube/podcast appearances for each expert, since not all 10 had a single obvious long-form video to pull a direct transcript from
 
 
 
@@ -68,7 +68,7 @@ Solution: Used manual collection for LinkedIn posts instead of trying to scrape,
 
 Status
 
-This is an in-progress research repository. Commits are being made incrementally as sources are verified and content is collected, rather than as one final batch commit.
+This research is complete. All 10 experts identified in sources.md have been fully documented with both LinkedIn posts (26+ posts total, with real engagement data and analysis) and YouTube/podcast transcript entries in youtube-transcripts/. Commits were made incrementally as sources were verified and content was collected, rather than as one final batch commit.
 
 
 
