@@ -54,4 +54,4 @@ Paste the full text into their file using the format above
 
 Note the date, link, and engagement numbers if visible
 
-Aim for 3-5 strong recent posts per expert (30-50 posts total), prioritizing quality and relevance over quantity.
+Aim for 2-4 strong, high-signal posts per expert rather than a fixed volume target — prioritizing posts with a clear hook, framework, or distinct point of view over hitting a specific count. Quality and relevance matter more than quantity.
