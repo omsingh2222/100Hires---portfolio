@@ -35,7 +35,7 @@ Lara Acosta, Dharmesh Shah, Adam Robinson, Emily Kramer, Natalie Marcotullio, Pr
 
 ### Issues I ran into and how I solved them
 **Issue:** Several experts only had first names in my initial research sources (industry roundup articles), not full LinkedIn handles.
-**Solution:** Flagged these clearly in `sources.md` as placeholders to be completed once I manually searched and verified their exact LinkedIn profiles — this ensured I was linking to verified, active accounts rather than guessing.
+**Solution:** Resolved by manually searching LinkedIn to verify each expert's exact profile URL before including them. — this ensured I was linking to verified, active accounts rather than guessing.
 
 **Issue:** LinkedIn doesn't have a public API for post scraping.
 **Solution:** Used manual collection for LinkedIn posts instead of trying to scrape, since scraping would violate LinkedIn's terms of service. Reserved API/scripting use for YouTube transcripts where a legitimate free method exists.
