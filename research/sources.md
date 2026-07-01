@@ -70,7 +70,7 @@ Date reviewed: [30 June,2026]
 
 
 
-5. Lashay lewis
+5. Lashay Lewis
 
 Role: Founder, Authority Plug
 LinkedIn: linkedin.com/in/lashaylewis
@@ -128,7 +128,7 @@ Date reviewed: [30 June,2026]
 10. Shiv Narayanan
 
 Role: CEO, How To SaaS
-LinkedIn: linkedin.com/in/shiv-n22]
+LinkedIn: linkedin.com/in/shiv-n22
 Why selected: Runs a marketing consultancy working with private equity-backed B2B SaaS companies and is a regular conference speaker on demand generation. Selected for a more agency/consultancy-side perspective versus the founder-side voices above.
 Date reviewed: [30 June,2026]
 
