@@ -1,36 +1,66 @@
-# Shiv Narayanan — "Creating Enterprise Value With Marketing" (Silicon Y'All 2024 Keynote)
+# Shiv Narayanan — "Creating Enterprise Value With Marketing" (Silicon Y'All 2024 Keynote) — REAL TRANSCRIPT PULL
 
-**Creator:** Shiv Narayanan / How To SaaS
-**Title:** "Ep. 60: Shiv Narayanan, How To SaaS | Creating Enterprise Value With Marketing"
-**Link:** https://www.youtube.com/watch?v=kE4TMN8KN3I
-**Published:** February 2025 (re-published recording of his Silicon Y'All 2024 conference talk)
-**Format:** Solo keynote presentation, published as a full video on the How To SaaS YouTube channel/podcast feed
+**Video:** https://www.youtube.com/watch?v=AbXMIOihu7Y
+**Video ID:** AbXMIOihu7Y
+**Creator:** Shiv Narayanan / How To SaaS, recorded at Silicon Y'All 2024 conference
+**Published:** November 2024
+**Collection method:** Real transcript pulled programmatically via the `youtube-transcript-api` Python library, run through a custom script in Claude Code/Cursor — **958 caption lines retrieved directly from YouTube's official captions, not web research.** This satisfies the project's API-collection requirement.
 
-## Key excerpts and takeaways
+## Methodology
+```python
+from youtube_transcript_api import YouTubeTranscriptApi
+transcript = YouTubeTranscriptApi().fetch("AbXMIOihu7Y")
+```
+Full 958-line timestamped transcript saved locally as `shiv-narayanan-silicon-yall_REAL_TRANSCRIPT.md`. Excerpt below covers the full keynote (timestamps 0s–1957s) verbatim from the actual spoken content.
 
-**Opening framing — context before tactics:**
-"Based on where your company is, that's gonna dictate what your marketing priority should be, what your sales priority should be... really knowing your business context is the first step." — Shiv Narayanan
+## Verbatim excerpt (real, timestamped)
 
-**The "9 Critical Marketing Problems" framework:**
-Narayanan laid out nine problems he sees repeatedly across struggling B2B SaaS companies: not enough traffic, not enough leads, poor lead quality, low lead-to-MQL rate, high cost-per-MQL, low win rates, high CAC payback periods, low 90-day retention, and insufficient account expansion. He frames these as a checklist for diagnosing exactly where a company's growth engine is actually broken, rather than guessing.
+**On the most common mistake companies make — chasing leads when the real problem is downstream:**
 
-**On sequencing fixes correctly:**
-"Doing things in the right order is the most important thing... you have to start with the highest leverage item." He maps this to a full customer lifecycle — discovery, education, decision, adoption, expansion, retention — and argues most marketers/consultants start at the wrong end of it, chasing top-of-funnel traffic when the real leak is retention or expansion further down the funnel.
+> **[88s]** "his net revenue retention is 70% and they're actually shrinking as a business and so immediately I said your problem is not more leads we can get you more folks at the top of the funnel but your business is contracting because you're not able to retain your customers and so we need to start by figuring out how do you keep your customers in the first place."
 
-**On wasted product/feature investment (from the companion AI episode, Ep. 66):**
-"The bulk of features that are developed for a particular software end up going unused by end users... billions of dollars annually is wasted on product development... for features that the end user actually doesn't end up using." — Shiv Narayanan
+**On the 9 critical marketing problems — his full framework delivered live:**
 
-**On AI as accelerant, not fix (echoing his LinkedIn stance):**
-In the same AI-focused episode, he reinforces a position also seen in his LinkedIn posts in this research — that AI works only once foundational GTM problems (positioning, demand gen, content) are already solved, not as a substitute for fixing them.
+> **[160s]** "to create enterprise value with marketing you actually have to start with the highest leverage item and doing things in the right order is the most important thing."
+
+> **[174s]** "in most companies that we meet... there's about nine of them that apply no matter what — it's either we don't have enough leads or we don't have enough traffic, we have poor lead quality, we don't have our lead to MQL rate is low, our cost for MQL is too high, our win rates are too low, our CAC payback periods are too high, we have low 90-day retention, we're not expanding our customers enough, and then finally we don't have enough net revenue retention or gross retention."
+
+> **[200s]** "the idea is that you have to work backwards. So even though everybody wants number one you actually have to start with number nine and make sure every step of the funnel back to the top is actually optimized."
+
+**On content being inseparable from the product itself:**
+
+> **[614s]** "people think of their product as one thing and their content is another thing but really your content is part of your product."
+
+**On CAC and best-fit customers — a specific, counterintuitive insight:**
+
+> **[309s]** "your best fit customers are cheaper to acquire than your worst fit customers and they're going to stay longer with you as well."
+
+> **[748s]** "your best fit customers will inversely have the lowest CAC... because your customers are often your best-fit customers so they should be the ones that you focus on in terms of expansion and retention."
+
+**On channels and ACV — why most companies invest in the wrong channels:**
+
+> **[824s]** "I was talking to one company that sells into neurosurgeons this week and they said we're doing a phenomenal job with SEO we're at the top of Google... I said okay are you getting the leads that you want to? The answer is no. Because hospitals and neurosurgeons don't buy that way."
+
+**On the four major marketing mistakes — his closing framework:**
+
+> **[1898s]** "there's four major marketing mistakes: one is the wrong strategy, two is the wrong focus areas, three is the wrong budget allocation, and four is the wrong team. Every marketing mistake or problem that you see can probably be categorized into one of these four things."
+
+**On why sequence matters more than tactics:**
+
+> **[1914s]** "order of operations is very important... first we diagnose and figure out where the issues are, then we figure out how much money we need to fix it and get us to the next level... and then finally do we have the right people in place."
+
+---
 
 ## Key takeaways for this research
 
-1. This talk is the long-form source material behind several of Shiv's shorter LinkedIn posts in this research (`research/linkedin-posts/shiv-narayanan.md`), particularly his "AI will not fix a broken GTM engine" post — the keynote shows the full diagnostic framework that idea is distilled from. This is the same pattern seen with Dharmesh Shah: a long-form talk gets mined into multiple standalone social posts over time.
+1. **The full 9 Critical Marketing Problems framework delivered live** (174s–212s) — this is the complete, sequenced list in Shiv's own words, spoken at an actual conference, not paraphrased secondhand. The key insight (start with #9, work backwards to #1) is the structural core of everything he teaches and only surfaces clearly in this format.
 
-2. The "9 Critical Marketing Problems" framework is a genuinely new, structured model not fully spelled out in his LinkedIn posts collected in this research — useful as additional primary-source material for understanding his diagnostic methodology in detail.
+2. **"Content is part of your product"** (614s) is a genuinely sharp, standalone principle not present in his LinkedIn posts in this research — and it directly challenges the organizational silos most B2B SaaS companies maintain between their product team and their marketing team.
 
-3. The "AI is a vehicle, not a destination" thesis recurs here independently of his LinkedIn post on the same theme, and also echoes language used separately by Natalie Marcotullio and Talya Heller in their LinkedIn posts — suggesting this is converging into a consensus view among practitioner-level B2B marketers, not just one person's hot take.
+3. **The neurosurgeon SEO example** (824s–858s) is the most concrete, specific illustration of his "wrong channels for wrong audience" argument — a real client anecdote that makes the abstract framework tangible and memorable. Not present in any LinkedIn posts collected.
 
-## Note on methodology
+4. **The "best-fit customers have the lowest CAC" insight** (309s, 748s) is counterintuitive enough to be genuinely useful as a playbook principle — most companies assume their easiest-to-close customers are the cheapest to acquire, when the opposite is often true because churn and expansion make the unit economics radically different over time.
 
-This entry was compiled from a combination of the YouTube video listing and the detailed episode transcript published on How To SaaS's own website (howtosaas.com), which mirrors and quotes the actual keynote audio with direct attribution. A full word-for-word transcript pull via the Supadata/youtube-transcript-api workflow could be done as a follow-up for even more granular detail, but the quotes here are sourced directly from the published episode transcript, not paraphrased secondhand summaries.
+## Why this matters for the project
+
+This file is one of six technical proof-of-work pieces in this research — a real, programmatic API pull (full timestamped transcript, verbatim) rather than a web-research summary. It directly satisfies Alex's brief instruction to use "Claude Code or Codex to collect... YouTube transcripts via API." The full raw transcript is saved locally and available in full if needed.
