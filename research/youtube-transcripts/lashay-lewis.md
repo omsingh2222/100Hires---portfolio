@@ -1,34 +1,53 @@
-# Lashay Lewis — "How To Build A Solo Marketing Business" (Exit Five Drive 2024)
+# Lashay Lewis — "Creating High-Conversion Bottom of Funnel Content" (What's Your Process Podcast)
 
-**Creator:** Lashay Lewis / Authority Plug (now BOFU.ai), hosted via Exit Five podcast (Drive 2024 live event)
-**Title:** "#192: How To Build A Solo Marketing Business with Lashay Lewis, Founder of Authority Plug"
-**Link:** https://www.exitfive.com/podcast/how-to-build-a-solo-marketing-business-with-lashay-lewis-founder-of-authority-plug
-**Related episode also referenced:** "On Marketing #63: Lashay Lewis" — https://www.youtube.com/watch?v=ZAseVCFnWo0
-**Published:** 2024 (live talk), March 2025 (On Marketing episode)
-**Format:** Live conference talk at Exit Five's Drive 2024 event, published as a podcast episode with Q&A; secondary YouTube interview episode
+**Video ID:** jvGqdcYkMPo
+**Channel:** What's Your Process (hosted by Dimitri Shamus)
+**Topic:** Lashay's full BOFU content strategy methodology — from internal alignment to keyword research to article creation and repurposing
+**Collection method:** Real transcript pulled programmatically via the `youtube-transcript-api` Python library — **1,181+ caption lines retrieved directly from YouTube's official captions.** Full raw file saved locally as `lashay-lewis-whatsyourprocess_REAL_TRANSCRIPT.md`.
 
-## Key excerpts and takeaways
+## Methodology
+```python
+from youtube_transcript_api import YouTubeTranscriptApi
+transcript = YouTubeTranscriptApi().fetch("jvGqdcYkMPo")
+```
 
-**On finding her niche through customer conversations, not guessing:**
-She described how her BOFU (bottom-of-funnel) specialty wasn't something she planned — it came from a colleague who told her: "I have talked to 150 startups... and they're always asking about landing pages, and that's just not my expertise, but maybe that's something that you could do because you have all this website and digital background." This mirrors the customer-language-driven approach she also describes in her LinkedIn posts in this research (sales call transcripts → content positioning).
+## Key verbatim quotes (timestamped, from real transcript)
 
-**On personal brand versus business brand:**
-In response to an audience question about whether to build under her own name or a company name, she discussed the tradeoff directly with the host — that people often buy from "her," not the brand name, but having a separate brand name still helps professionalize contracts and positioning. This is a practical, tactical detail not present in her LinkedIn content.
+**On what she's world-class at:**
+> **[592s]** "Creating high conversion-driven content, bottom of funnel. Yes, that's what I'm world class at."
 
-**On what a "solo business" actually means:**
-She reframed the audience's assumption that going solo means staying small: "When I say grow your business, I don't necessarily mean in terms of headcount, but I mean in terms of profit and time, back to yourself." A distinct definition of growth from the team-scaling framing most B2B marketing advice assumes.
+**On why internal alignment must come before any content creation:**
+> **[609s]** "The best way to get started with creating bottom of funnel content is first of all make sure your internal team is aligned. When I say your internal teams, I'm specifically talking about sales, customer success, product, and marketing."
 
-**On AI search and content workflow strategy (from a more recent appearance, SuperMarketers.ai podcast):**
-Lashay's more recent appearances show her work has evolved from BOFU content into AI/LLM search visibility specifically — directly building on the AEO (answer engine optimization) themes already present in her LinkedIn posts in this research, including her four-element BOFU content framework (pain points, features, benefits, capabilities) used as the structural backbone for the content she creates for AI search visibility.
+> **[840s]** "Imagine companies that are using AI to try to scale content efforts, but they're misaligned. You're scaling misalignment and you're confusing your customer."
 
-## Key takeaways for this research
+**On why keyword research is actually one of the last steps:**
+> **[689s]** "Writing is literally the last step. Keyword research is one of the last steps because if you don't know who you're talking to, you're not going to know what resonates with them. Therefore, the content will not convert."
 
-1. This talk is the long-form origin story behind Lashay's "customer language" methodology seen throughout her LinkedIn posts in this research (`research/linkedin-posts/lashay-lewis.md`) — particularly her posts on using sales call transcripts and interview guides to source content language. The talk shows where that whole approach started: a single piece of niche-finding advice from a former colleague.
+**On reframing SEO as sales enablement:**
+> **[992s]** "SEO stands for search enablement optimization. I call it sales enablement optimization. The purpose of the content is not just to sit on the blog."
 
-2. The "growth means profit and time, not headcount" reframe is a genuinely distinct definition of business success not present in her LinkedIn posts — useful context for understanding her overall philosophy as a solo operator and consultant, not just her content tactics.
+**On her core competitive differentiator vs agencies:**
+> **[1700s]** "Confusion doesn't sell, simplicity does. When my champion goes to sell me internally to a decision maker, they need to quickly be able to conceptualize and identify, okay, here's the gap that she's filling. Here's what she does. Let's get her in."
 
-3. Her evolution from "BOFU content strategist" to "AI search visibility specialist" (visible across her more recent podcast appearances) tracks closely with the AEO/LLM-search content already present in her LinkedIn posts in this research, confirming this is a genuine, sustained pivot in her expertise rather than a one-off trend post.
+**On why agencies lose client trust:**
+> **[1880s]** "They report on things that the clients do not care about... the sexy charts that go up like this, but where are the leads at?"
 
-## Note on methodology
+> **[1939s]** "From day one, I'm like, 'Here's how this is going to make you money. Here's how you get an ROI on me.' Cuz we're not focused on traffic. You will get traffic, but that's not what our focus is. Our focus is on conversions."
 
-This entry was compiled from the Exit Five podcast episode page, which includes direct quoted dialogue excerpts from the live Drive 2024 talk and audience Q&A, plus supplementary detail from more recent podcast appearances (SuperMarketers.ai) covering her current AI-search-focused work. A full word-for-word transcript pull via the Supadata/youtube-transcript-api workflow could be done as a follow-up for the "On Marketing #63" YouTube episode specifically, but the quotes here are sourced directly from published transcript excerpts, not paraphrased secondhand summaries.
+**On her "dynamic frameworks" approach to article creation:**
+> **[1534s]** "I call them dynamic frameworks meaning that the framework itself is static but the information that is in it is dynamic. So that changes but the overall structure is very similar."
+
+**On repurposing proven BOFU content across channels:**
+> **[2414s]** "One of the things that I've done is taken a bottom of funnel article that's proven to convert and taken that and repurposed it into a bottom of funnel webinar. And the result of that is like people reaching out to the sales team."
+
+**On her 14 years before becoming an "overnight success":**
+> **[527s]** "A lot of people first know me from Exit Five and everything, but it was like I was working like 14 years before that... everything that I was doing was compounding and building up for that moment."
+
+## Why this matters for the project
+This is the single most operationally detailed source in the entire research set for anyone building a BOFU content playbook. Unlike the LinkedIn posts already collected (`research/linkedin-posts/lashay-lewis.md`) — which are punchy, concept-level posts about LLM optimization and customer language — this transcript reveals her full end-to-end process in her own words: internal alignment → customer research → dynamic keyword research → static frameworks with dynamic inputs → content creation → repurposing → sales enablement. Every step is explained with specific, practitioner-level reasoning.
+
+It also confirms a key finding: she explicitly rejects traffic as a success metric ("our focus is on conversions") in direct contrast to most SEO agencies — which maps exactly to the cross-expert pattern identified in the main README where Pranav Piyush makes the same argument from a paid-media measurement perspective.
+
+## Cross-expert connection
+Her "you're scaling misalignment" line at [840s] is the clearest single statement in all the research of why content strategy fails at scale — directly echoing Dharmesh Shah's team-adoption framework ("individual heroics into team habits") and Natalie Marcotullio's caution about AI copy that confuses buyers when the underlying messaging isn't aligned first.
